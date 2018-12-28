@@ -16,3 +16,21 @@ The work described in this article has been funded through Rucon project (Runtim
 CITATION:
 [1] I. Lujic, V. De Maio and I. Brandic, "Adaptive Recovery of Incomplete Datasets for Edge Analytics," 2018 IEEE 2nd International Conference on Fog and Edge Computing (ICFEC), Washington, DC, 2018, pp. 1-10.
 [2] I. Lujic, V. D. Maio and I. Brandic, "Efficient Edge Storage Management Based on Near Real-Time Forecasts," 2017 IEEE 1st International Conference on Fog and Edge Computing (ICFEC), Madrid, 2017, pp. 21-30.
+
+*******************************************************************
+This repository is consisted of the following separated .R files:
+
+- **fill_gaps_original.R** - aims to to remove potential outliers and reconstruct incomplete data sets. It contains an automated function that automatically recovers multiple gaps within the dataset.
+- **b_1_data_recovery_mechanism.R** - represents data recovery mechanism including call of fill_gaps().
+- **FindStableClusters.R** - aims to find stable clusters of forecast accuracies.
+- **FindAppropriateCluster.R** - aims to find an appropriate cluster that satisfies the requested threshold taking as few data as possible contained in stable clusters.
+- **b_1_edge_storage_management.R** - the adaptive algorithm that implements design principles for edge storage management including function calls of prior functions: FindStableClusters and FindAppropriateCluster.
+- **b_1_PRM.R** - represents data recovery mechanism based on projection recovery maps (PRM).
+- **fill_gaps_MTR_based_on_PRM.R** - data recovery procedure using multiple technique recovery (MTR) scenario.
+- **fill_gaps_STR.R** - data recovery procedure using single technique recovery (STR) scenario.
+- **Mediator_FindAppropriateCluster.R** - finding appropriate cluster based on PRM.
+- **Mediator_FindStableClusters.R** - finding stable clusters based on PRM.
+- **PRM_calculation_b_1.R** - calculating PRM for selected dataset.
+
+*******************************************************************
+*******************************************************************
