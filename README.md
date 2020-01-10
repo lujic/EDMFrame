@@ -12,12 +12,14 @@ The proposed algorithms are evaluated on sensor-based time series data coming fr
 * Smart buildings - containing various measurements coming from the monitoring system of Austria’s largest Plus-Energy Office High-Rise Building.
 
 ACKNOWLEDGMENTS 
+--
 The work described in this article has been funded through Rucon project (Runtime Control in Multi Clouds), FWF Y 904 START-Programm 2015 and supported with Ivan Lujic's netidee scholarship by the Internet Foundation Austria. The authors would like to thank staff at TU Wien's Plus-Energy Office High-Rise Building, especially to Thomas Bednar and Alexander David on valuable discussions and the Federal Real Estate Company (BIG) for providing data sources.
 
-CITATION:
-[1] Lujic, Ivan, Vincenzo De Maio, and Ivona Brandic. "Adaptive recovery of incomplete datasets for edge analytics." 2018 IEEE 2nd International Conference on Fog and Edge Computing (ICFEC). IEEE, 2018.
-[2] Lujic, Ivan, Vincenzo De Maio, and Ivona Brandic. "Efficient edge storage management based on near real-time forecasts." 2017 IEEE 1st International Conference on Fog and Edge Computing (ICFEC). IEEE, 2017.
-[3] Lujic, Ivan, Vincenzo De Maio, and Ivona Brandic. "Resilient Edge Data Management Framework." IEEE Transactions on Services Computing (2019).
+CITATION
+--
+- [1] Lujic, Ivan, Vincenzo De Maio, and Ivona Brandic. "Adaptive recovery of incomplete datasets for edge analytics." 2018 IEEE 2nd International Conference on Fog and Edge Computing (ICFEC). IEEE, 2018.
+- [2] Lujic, Ivan, Vincenzo De Maio, and Ivona Brandic. "Efficient edge storage management based on near real-time forecasts." 2017 IEEE 1st International Conference on Fog and Edge Computing (ICFEC). IEEE, 2017.
+- [3] Lujic, Ivan, Vincenzo De Maio, and Ivona Brandic. "Resilient Edge Data Management Framework." IEEE Transactions on Services Computing (2019).
 
 *******************************************************************
 This repository is consisted of the following separated .R files:
