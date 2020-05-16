@@ -38,10 +38,8 @@ This repository is consisted of the following separated .R files:
 
 *******************************************************************
 Diese Arbeit wurde mit einem netidee Stipendium gefördert.
+
 This work was funded with a netidee scholarship.
-```
-{r, echo=FALSE}
-# Define variable containing url
-url <- "https://www.netidee.at/themes/Netidee/images/netidee-logo-color.svg"
-```
+![Image of netidee](https://www.netidee.at/themes/Netidee/images/netidee-logo-color.svg)
+
 *******************************************************************
