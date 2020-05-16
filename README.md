@@ -38,7 +38,7 @@ This repository is consisted of the following separated .R files:
 
 *******************************************************************
 Diese Arbeit wurde mit einem netidee Stipendium gefördert.  
-This work was funded with a netidee scholarship.  
+This work was supported with a netidee scholarship.  
 
 ![Image of netidee](https://www.netidee.at/themes/Netidee/images/netidee-logo-color.svg)
 
